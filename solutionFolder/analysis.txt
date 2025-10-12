@@ -1,0 +1,18 @@
+How my code is different from the solution:
+My code and the solution both create a functional shopping list, 
+but mine uses a slightly different structure and logic. 
+I used insertBefore() and removeChild() to swap elements during editing, 
+while the solution uses replaceWith() for cleaner element replacement. 
+My version names elements and variables differently (addBtn vs. add-button) 
+and doesn’t include the feature that lets users press the Enter key to add items. 
+I also included a complete and styled interface using an external CSS file, 
+while the solution focuses mainly on the core JavaScript functionality without 
+additional styling.
+
+What the solution code adds to my learning or understanding:
+The solution shows a more streamlined way to handle editing and element replacement, 
+which simplifies the code and improves readability. It also introduces a helpful 
+usability feature—adding items with the Enter key—which enhances user experience. 
+Comparing both versions helped me understand alternative DOM manipulation methods, 
+the importance of clean function structure, and how to make form interactions more 
+intuitive.
